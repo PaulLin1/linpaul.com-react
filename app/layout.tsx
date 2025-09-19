@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import "../styles/globals.css";
 import React, { ReactNode, useState } from "react";
 
@@ -24,19 +24,19 @@ export default function Layout({ children }: LayoutProps) {
         >
           {/* Left links */}
           <nav style={{ display: "flex", gap: "1.5rem" }}>
-            <a href="/blog" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
+            <Link href="/blog" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
               Blog
-            </a>
-            <a href="/links" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
+            </Link>
+            <Link href="/links" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
               Links
-            </a>
-            <a href="/about" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
+            </Link>
+            <Link href="/about" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
               About
-            </a>
+            </Link>
           </nav>
 
           {/* Center name */}
-          <a
+          <Link
             href="/"
             style={{
               position: "absolute",
@@ -48,7 +48,7 @@ export default function Layout({ children }: LayoutProps) {
             }}
           >
             Paul Lin
-          </a>
+          </Link>
 
           {/* Right placeholder */}
           <div style={{ width: "120px" }}></div>
