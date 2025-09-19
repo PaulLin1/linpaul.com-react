@@ -1,0 +1,10 @@
+---
+title: "Jon Brion"
+date: "09-20-2025"
+tags: ["Jon Brion"]
+---
+
+Most people are never formally introduced to Jon Brion's music. Despite scoring award winning movies that bolster strong cult following s and producing for charting artists for three decades, his name is only found by those who wait for the credits to finish or read the back of the CD cover. Luckily I am one of those people.
+The hardest part about getting into Brion's music is that he works with visionaries and it's hard to imagine how Brion interjects his only artistry into the piece. Take the dreamlike quailities of Charlie Kaufmann movies. The soundtrack for Eternal Sunshine of the Spotless Mind sounds like it should. Brion's soundtrack complements the film so well that it feels like Kaufman transposed his mind into Brion and use his talents to compose the sountrack. Prior to Figure 8, Elliott Smith carved out a distinct sound and had a string of self produced albums. The baroque sound of Figure 8 can be seen as a direct continual of Smith's progression as an artist past XO, thus making it hard to see Brion's contributions. But to me, that just shows his genius as an artist. Hearing him talk about the creation of the Punch Drunk Love soundtrack, you see how he is able to take PTA's ideas and form them into cohesive musical ideas.
+Even with his impressive catalog as a collaborator, his solo material remains my favorite. Meaningless is his debut album and has multiple standouts (check out his acousticperformance of Trouble with Elliott Smith). That is his only non score album on stream, but he has much more online. Bootlegs of his performances at the Largo and elsewhere. His Largo performances showcase his musicianship as him plays all the instruments and his unique voice. Other strong vocal songs are his songs on the I Heart Huckabees soundtrack.
+Beyond music, Brion is a figure of resilience. Many of his collaborators have struggled with mental health issues, and some have tragically lost their lives. In the few interviews he has given, he shares wisdom on how to stay healthy as a musician in the digital age.
