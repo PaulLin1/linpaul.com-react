@@ -38,8 +38,8 @@ export default function AboutPage() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
           {[
             "The website is built using React and Tailwind CSS, with random images displayed using Frame Motion.",
-            "For the CI/CD pipeline, I use GitHub Actions to build a Docker container and deploy it with Vercel",
-            "I chose Vercel because it provides a simple, cost-effective solution that perfectly fits the scale of this project.",
+            "I chose Vercel for deployment because it provides a simple, cost-effective solution that perfectly fits the scale of this project.",
+            "Additionally, Vercel automates CI/CD so I do not have to use some like Github Actions",
             "The website's design draws inspiration from art.yale.edu.",
             "In a UX class, a classmate once presented it as an example of poor design, but I loved it.",
             "I like how its eccentric, collage-like layout stands out over the duplicated image.",
