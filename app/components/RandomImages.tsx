@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const IMAGE_COUNT = 165;
 const SLOTS = 15;
 const IMAGE_LIFESPAN = 8000; // How long each image stays visible (8 seconds)
-const ADD_INTERVAL = 1000; // How often to add new images (0.5 seconds)
+const ADD_INTERVAL = 750; // How often to add new images (0.5 seconds)
 
 interface CollageImage {
   src: string;
