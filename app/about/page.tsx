@@ -23,7 +23,7 @@ export default function AboutPage() {
 		{/* Section 2: Description with line highlights */}
 		<div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
 		{[
-			"I am a computer scientist studying at Michigan State University.",
+			"I am a computer science student tudying at Michigan State University.",
 			"I am currently working at the ECODE Lab working on evolutionary computation and computer vision projects.",
 			"In my free time I like listening to music, my favorite musicians are Belle & Sebastian and Jon Brion."
 		].map((line, idx) => (
