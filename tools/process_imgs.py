@@ -39,25 +39,18 @@ def process_images(directory, max_size=1920):
         while counter in existing_nums:
             counter += 1
 
+        dst_path = os.path.join(output_dir, f"{counter}.jpg")
+
         try:
             with Image.open(src_path) as img:
-                # Check if image has transparency
-                has_alpha = (
-                    img.mode in ("RGBA", "LA") or
-                    ("transparency" in img.info)
-                )
+                # Convert all to RGB for JPEG
+                img = img.convert("RGB")
 
                 # Resize if too large (maintains aspect ratio)
                 img.thumbnail((max_size, max_size))
 
-                # Determine output format and extension
-                if has_alpha:
-                    dst_path = os.path.join(output_dir, f"{counter}.png")
-                    img.save(dst_path, "PNG", optimize=True)
-                else:
-                    dst_path = os.path.join(output_dir, f"{counter}.jpg")
-                    img = img.convert("RGB")
-                    img.save(dst_path, "JPEG", quality=90, optimize=True)
+                # Save as high-quality JPEG
+                img.save(dst_path, "JPEG", quality=90, optimize=True)
 
             processed_count += 1
             existing_nums.add(counter)
@@ -69,5 +62,4 @@ def process_images(directory, max_size=1920):
 
     print(f"\nDone! Processed {processed_count}/{len(image_files)} images into '{output_dir}'")
 
-# Example usage
 process_images("../public/imgs/")
