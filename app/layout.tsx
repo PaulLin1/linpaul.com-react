@@ -36,8 +36,7 @@ export default function Layout({ children }: LayoutProps) {
                 left: 0,
                 right: 0,
                 bottom: 0,
-                backgroundColor: showImages ? "#4ade80" : "#ccc",
-                borderRadius: "34px",
+                backgroundColor: showImages ? "#000000ff" : "#ccc",
                 transition: "0.5s",
               }}
             >
@@ -72,6 +71,9 @@ export default function Layout({ children }: LayoutProps) {
         >
           {/* Left links */}
           <nav style={{ display: "flex", gap: "1.5rem" }}>
+            <Link href="/" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
+              Home
+            </Link>
             <Link href="/blog" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
               Blog
             </Link>
@@ -82,22 +84,6 @@ export default function Layout({ children }: LayoutProps) {
               About
             </Link>
           </nav>
-
-          {/* Center name */}
-          <Link
-            href="/"
-            style={{
-              position: "absolute",
-              left: "50%",
-              transform: "translateX(-50%)",
-              fontWeight: "900",
-              fontSize: "3rem",
-              textDecoration: "none",
-            }}
-          >
-            Paul Lin
-          </Link>
-
           {/* Right placeholder */}
           <div style={{ width: "120px" }}></div>
         </header>
