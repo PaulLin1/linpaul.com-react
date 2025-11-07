@@ -74,9 +74,9 @@ export default function Layout({ children }: LayoutProps) {
             <Link href="/" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
               Home
             </Link>
-            <Link href="/blog" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
+            {/* <Link href="/blog" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
               Blog
-            </Link>
+            </Link> */}
             <Link href="/links" style={{ textDecoration: "none", color: "#111", fontSize: "1.5rem" }}>
               Links
             </Link>
